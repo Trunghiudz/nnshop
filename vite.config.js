@@ -6,10 +6,10 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
-                shop: resolve(__dirname, './shop.html'),
-                datail: resolve(__dirname, './datail-product.html'),
+                shop: resolve(__dirname, './productt.html'),
+                datail: resolve(__dirname, './chitietsp.html'),
                 cart: resolve(__dirname, './cart.html'),
-                pay: resolve(__dirname, './pay-product.html'),
+                pay: resolve(__dirname, './checkout.html'),
                 // login: resolve(__dirname, './login.html'),
             },
         },
