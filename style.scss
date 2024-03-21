@@ -139,6 +139,37 @@ img {
         }
     }
 
+    &-next {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    &-next>* {
+
+        margin: 0 10px;
+    }
+
+    &-one {
+        background-color: #B88E2F;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    &-two {
+        background-color: #F9F1E7;
+        color: #000000;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    &__next {
+        background: none;
+        border: none;
+
+    }
+
     &-item {
         position: relative;
         transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -591,7 +622,8 @@ img {
 
 
 
-// PRODUCT
+// PRODUCT//////////////////////////////////////////////////////////////////////////////////////////
+
 .show {
     background-color: #F9F1E7;
     height: 100px;
@@ -720,6 +752,8 @@ img {
         border-left: 2px solid #9F9F9F;
         padding: 10px
     }
+
+
 }
 
 
